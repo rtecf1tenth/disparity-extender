@@ -1,5 +1,5 @@
 # Improved Disparity Extender Autonomous Racing Algorithm
-Built on top of https://github.com/cs496-f1tenth/william-full-stack
+Built on top of the william-full-stack repository
 
 ### To launch the car’s controllers run
 ```python
