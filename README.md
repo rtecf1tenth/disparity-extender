@@ -18,5 +18,6 @@ ros2 launch willam_full_stack DE.launch.py
 python3 disparity.py
 ```
 ### Notes:
+- After initially launching the disparity.py script you may need to kill the process and run again. This workaround stops the car from steering erratically on the first try.
 - Needs tuning depending on the environment. Generally the standalone script works with wider tracks but needs tuning as the track gets more narrow.
 - Some values we had to play with were `KP, KD, SAFETY_PERCENTAGE,` and `VIEW_RANGE` .
